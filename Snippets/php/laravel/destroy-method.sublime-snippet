@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+\$${1:name} = ${2:ModelName}::findOrFail(\$id)->${1:name};
+${2:ModelName}::destroy(\$id);
+
+return redirect()
+    ->route('admin.${4:name}.index')
+    ->with('message', '${5:Le machin} ' . \$${1:name} . ' a bien été supprimé${6:e}');
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>laradestroy</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

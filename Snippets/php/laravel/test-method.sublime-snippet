@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+/** @test */
+function ${2:test_name}(${3:$param})
+{
+    ${0:\$admin = \$this->getAdminUser();}
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>laratest</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

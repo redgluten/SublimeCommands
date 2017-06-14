@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Scope a query to ${5:return something}
+ * @param  Illuminate\Database\Eloquent\Builder \$query
+ * @return Illuminate\Database\Eloquent\Builder
+ */
+public function scope${1:ScopeName}(\$query${2:, \$${3:parameter}})
+{
+    return \$query->${4:where()};
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>larascope</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

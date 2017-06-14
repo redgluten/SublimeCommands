@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+Schema::table('${1:tableName}', function (Blueprint \$table) {
+    \$table->${2:string}('${3:columnName}');${0:}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>laraschema-table</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

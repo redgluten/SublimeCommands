@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+// ${1:ResourceName}
+Route::resource('${2:resourcename}', '${3:ResourceName}Controller');
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>lararouteres</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

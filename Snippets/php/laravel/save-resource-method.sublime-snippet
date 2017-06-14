@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Save ${3:modelName} to DB
+ * @param  ${1:Request}  \$request
+ * @param  ${2:Model} \$${3:modelName}
+ * @return ${2:Model}
+ */
+public function save${2:Model}(${1:Request} \$request, ${2:Model} \$${3:modelName})
+{
+    \$${3:modelName}->${4:attribute} = \$request->${4:attribute};${0:}
+
+    \$${3:modelName}->save();
+
+    return \$${3:modelName};
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>larasaveresource</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

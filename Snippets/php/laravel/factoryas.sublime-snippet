@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+\$factory->defineAs(App\\${1:ModelName}::class, '${2:name}', function (Faker\Generator \$faker) use (\$factory) {
+    \$${3:modelName} = \$factory->raw(App\\${1:ModelName}::class);
+
+    return array_merge(\$${3:modelName}, [
+        '${4:attribute}' => \$faker->${4:attribute},${0:}
+    ]);
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>larafactoryas</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

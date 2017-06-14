@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+Schema::create('${1:table1}_${3:table2}', function (Blueprint \$table) {
+    \$table->timestamps();
+
+    \$table->integer('${1:table1}_id')->unsigned()->index();
+    \$table->foreign('${1:table1}_id')->references('id')->on('${1:table1}s')->onDelete('${2:cascade}');
+
+    \$table->integer('${3:table2}_id')->unsigned()->index();
+    \$table->foreign('${3:table2}_id')->references('id')->on('${3:table2}s')->onDelete('${4:cascade}');
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>laraschema-many</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

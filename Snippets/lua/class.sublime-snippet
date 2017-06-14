@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+local ${1:ClassName} = {}
+
+function ${1:ClassName}:${2:new}()
+    ${3:-- body}
+end${0}
+
+return ${1:ClassName}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>class</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.lua</scope>
+</snippet>

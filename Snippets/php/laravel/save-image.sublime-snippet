@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+\$${1:attribute_name} = \$this->saveImageToDisk(\$request->file('${1:attribute_name}'), \$${2:modelName}->name);
+if (\$${1:attribute_name} != false) {
+    \$${2:modelName}->${1:attribute_name} = \$${1:attribute_name};
+}
+${0:}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>larasaveimage</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

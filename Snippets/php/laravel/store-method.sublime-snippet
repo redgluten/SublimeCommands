@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+${1:\$this->validate(\$request, \$this->rules);
+
+}\$${2:modelName} = new ${3:ModelName}();
+
+\$this->save${3:ModelName}(\$request, \$${2:modelName});
+
+return redirect()
+    ->route('admin.${4:modelName}s.show', \$${2:modelName}->id)
+    ->with('message', '${5:Le machin} ' . \$${2:modelName}->${6:name} . ' a bien été créé${7:e}');
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>larastore</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>
