@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+/**
+* {@inheritdoc}
+* ${1:description}.
+*/
+public function buildForm(array \$form, FormStateInterface \$form_state) {
+  return [
+    ${2:'submit' => [
+      '#type' => 'submit',
+      '#value' => \$this->t('${3:button text}')
+    ]}
+  ];
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>drubuildform</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

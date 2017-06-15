@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+\$txn = db_transaction();
+
+try {
+    ${2:// database query}
+} catch (Exception \$e) {
+  \$txn->rollback();
+  watchdog_exception('${TM_FILENAME/([^.]*)\..*$/$1/}', \$e, '${TM_FILENAME/([^.]*)\..*$/$1/}_${1:function_name}() failed:' . \$e);
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>dinsert</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>

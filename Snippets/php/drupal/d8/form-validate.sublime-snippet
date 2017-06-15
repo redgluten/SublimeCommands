@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+/**
+* {@inheritdoc}.
+* ${1:description}.
+*/
+public function validateForm(array &\$form, FormStateInterface \$form_state) {
+  \$${1:value} = \$form_state->getValue('${1:value}');
+
+  if (${2:validation_method}(\$${1:value})) {
+    \$form_state->setErrorByName('${1:value}', \$this->t('${3:Validation failed message}'));
+  }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>druvalidform</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.php</scope>
+</snippet>
