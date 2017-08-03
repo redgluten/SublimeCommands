@@ -1,14 +1,10 @@
 <snippet>
     <content><![CDATA[
-${1:\$this->validate(\$request, \$this->rules);
+\$${1:modelName} = \$request->persist(new ${2:ModelName}());
 
-}\$${2:modelName} = new ${3:ModelName}();
+flash('The ${1:modelName} ' . \$${1:modelName}->${3:name} . ' has been created');
 
-\$this->save${3:ModelName}(\$request, \$${2:modelName});
-
-return redirect()
-    ->route('admin.${4:modelName}s.show', \$${2:modelName}->id)
-    ->with('message', '${5:Le machin} ' . \$${2:modelName}->${6:name} . ' a bien été créé${7:e}');
+return redirect()->route('${1:modelName}s.show', \$${1:modelName}->id);
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>larastore</tabTrigger>

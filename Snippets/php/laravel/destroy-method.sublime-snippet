@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-\$${1:name} = ${2:ModelName}::findOrFail(\$id)->${1:name};
-${2:ModelName}::destroy(\$id);
+\$${1:name} = \$${2:model}->${1:name};
+\$${2:Model}->destroy();
 
-return redirect()
-    ->route('admin.${4:name}.index')
-    ->with('message', '${5:Le machin} ' . \$${1:name} . ' a bien été supprimé${6:e}');
+flash('The ${2:model} ' . \$${1:name} . ' was deleted.');
+
+return redirect()->route('${2:model}s.index');
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>laradestroy</tabTrigger>

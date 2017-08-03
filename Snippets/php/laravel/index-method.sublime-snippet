@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-\$${1:modelName} = ${2:ModelName}::${3:orderBy('name', 'asc')->}paginate(${4:10});
+\$${1:models} = ${2:Model}::${3:orderBy('created_at', 'desc')->}paginate(${4:10});
 
-return view('admin.${1:modelName}.index', compact('${1:modelName}'));
+return view('${1:models}.index', compact('${1:models}'));
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>laraindex</tabTrigger>
