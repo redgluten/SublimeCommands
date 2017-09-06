@@ -2,10 +2,11 @@
     <content><![CDATA[
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generics;
 
-public class ${1:ClassName} : MonoBehaviour {
+public class ${TM_FILENAME/([^.]*)\..*$/$1/} : MonoBehaviour {
     ${0}
-    ${2:void Start () {
+    ${1:void Start () {
         // code
     \}
 
