@@ -1,9 +1,8 @@
 <snippet>
-    <content><![CDATA[
-<i class="fa fa-${1:font}" aria-hidden="true"></i>
+<content><![CDATA[
+<i class="fa fa-${1:user-o}" aria-hidden="true"></i> ${0}
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>fonta</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>text.blade,text.html.laravel-blade</scope>
+<tabTrigger>fonta</tabTrigger>
+<description>Font Awesome icon</description>
+<scope>text.blade.html, text.html, text.html.twig, meta.tag.any.html, punctuation.definition.tag.html</scope>
 </snippet>
