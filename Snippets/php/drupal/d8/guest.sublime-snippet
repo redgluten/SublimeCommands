@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\Drupal::currentUser()->isAnonymous()
+]]></content>
+<tabTrigger>guest</tabTrigger>
+<description>Check if user is guest</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function.php, meta.block.php, meta.group.php, meta.path.php, punctuation.separator.namespace.php</scope>
+</snippet>
