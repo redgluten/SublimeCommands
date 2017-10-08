@@ -3,7 +3,7 @@
 /**
  * Get the associated ${1:model(s)}
  */
-public function ${1:model(s)}() : ${4:Relationship class}
+public function ${1:model(s)}()
 {
     return \$this->${2:relationship}(${3:ClassName}::class);
 }
