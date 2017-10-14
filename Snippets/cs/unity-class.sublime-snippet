@@ -2,7 +2,7 @@
     <content><![CDATA[
 using UnityEngine;
 using System.Collections;
-using System.Collections.Generics;
+using System.Collections.Generic;
 
 public class ${TM_FILENAME/([^.]*)\..*$/$1/} : MonoBehaviour {
     ${0}
