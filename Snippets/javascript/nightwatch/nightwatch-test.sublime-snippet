@@ -1,0 +1,12 @@
+<snippet>
+<content><![CDATA[
+'${1:Describe me}': (client) => {
+  client
+    ${2:.doSomeStuff()}
+    .end();
+},
+]]></content>
+<tabTrigger>ngtest</tabTrigger>
+<description>Nightwatch test</description>
+<scope>source.js, meta.object-literal.js, meta.object-literal.key.js, meta.function.declaration.js, string.quoted.single.js, punctuation.definition.string.begin.js</scope>
+</snippet>
