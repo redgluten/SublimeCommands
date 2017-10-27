@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\$${1:content_type}s = node_load_multiple([], '${1:content_type}');
+]]></content>
+<tabTrigger>7loadtype</tabTrigger>
+<description>Load Nodes of a specific content-type</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function.php, meta.block.php, variable.other.php, punctuation.definition.variable.php</scope>
+</snippet>
