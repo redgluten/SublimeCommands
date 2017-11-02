@@ -1,0 +1,11 @@
+<snippet>
+<content><![CDATA[
+\$this->browse(function (Browser \$browser)${1: use (\$${2:user})} {
+    \$browser->${3:loginAs(User::first())}
+        ->${4:assertSee('${5:something}')}${0};
+});
+]]></content>
+<tabTrigger>browsertest</tabTrigger>
+<description>Browser test callback</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, variable.language.php, punctuation.definition.variable.php</scope>
+</snippet>
