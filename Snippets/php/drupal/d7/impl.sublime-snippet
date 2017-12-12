@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+/**
+ * Implements hook_${1:hook_name}().
+ */
+]]></content>
+<tabTrigger>impl</tabTrigger>
+<description>Drupal implements hook docblock</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, comment.block.documentation.phpdoc.php, punctuation.definition.comment.php</scope>
+</snippet>
