@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Foundation\Testing\DatabaseTransactions;
+
+class ${TM_FILENAME/([^.]*)\..*$/$1/} extends TestCase
+{
+    $2
+}
+]]></content>
+<tabTrigger>laractest</tabTrigger>
+<description>Laravel test class</description>
+<scope>source.php</scope>
+</snippet>
