@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+@extends('layouts.${1:app}')
+
+@section('title')
+$2
+@endsection
+
+@section('content')
+$3
+@endsection
+]]></content>
+<tabTrigger>page</tabTrigger>
+<description>Blade page</description>
+<scope>text.blade, text.html.blade, custom.compiler.blade.php</scope>
+</snippet>
