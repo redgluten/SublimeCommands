@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+->format('d/m/Y')
+]]></content>
+<tabTrigger>cdmy</tabTrigger>
+<description>Carbon format d/m/Y</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.function-call.php, meta.group.php, meta.function-call.php, meta.group.php, string.quoted.single.php, meta.string-contents.quoted.single.php</scope>
+</snippet>
