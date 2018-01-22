@@ -8,7 +8,7 @@ public function ${1:test_name}()
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>tmeth</tabTrigger>
+  <tabTrigger>test</tabTrigger>
   <description>PHP Unit test method</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.class.php, meta.block.php, comment.block.php, punctuation.definition.comment.php</scope>
