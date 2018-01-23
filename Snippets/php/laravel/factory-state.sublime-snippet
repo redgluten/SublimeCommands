@@ -1,11 +1,7 @@
 <snippet>
     <content><![CDATA[
 \$factory->state(App\\${1:ModelName}::class, '${2:name}', function (Faker\Generator \$faker) {
-    \$${3:modelName} = \$factory->raw(App\\${1:ModelName}::class);
-
-    return array_merge(\$${3:modelName}, [
-        '${4:attribute}' => \$faker->${4:attribute},${0:}
-    ]);
+    return ['${3:attribute}' => \$faker->${3:attribute},${0:}];
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
