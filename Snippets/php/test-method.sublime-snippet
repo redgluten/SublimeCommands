@@ -2,7 +2,7 @@
   <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 /** @test */
-public function ${1:test_name}()
+function ${1:test_name}()
 {
     ${2:// test sth}
 }
