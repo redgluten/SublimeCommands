@@ -5,7 +5,7 @@
  * @param  Illuminate\Database\Eloquent\Builder \$query
  * @return Illuminate\Database\Eloquent\Builder
  */
-public function scope${1:ScopeName}(\$query${2:, \$${3:parameter}})
+public function scope${1:ScopeName}(Builder \$query${2:, \$${3:parameter}})
 {
     return \$query->${4:where()};
 }
