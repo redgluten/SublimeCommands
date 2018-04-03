@@ -4,8 +4,6 @@ function ${1:}${TM_FILENAME/([^.]*)\..*$/$1/}_${2:function_name}(${3:args}) {
   ${4:// code}
 }
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>dfunc</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.php</scope>
+    <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function.php, meta.block.php</scope>
 </snippet>

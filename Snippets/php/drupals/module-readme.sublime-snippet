@@ -1,0 +1,26 @@
+<snippet>
+<content><![CDATA[
+# ${1:Module name} (`${2:module_machine_name}`)
+
+${3:Description}
+
+${4:
+---
+
+## Installation & configuration
+
+${5:Steps}
+}
+
+${6:
+---
+
+## Views
+
+${7:- __${8:View name}__ (`${9:view_machine_name}`): ${10:View description}
+}
+]]></content>
+<tabTrigger>drupmodule</tabTrigger>
+<description>Drupal module readme</description>
+<scope>text.html.markdown.gfm, meta.block-level.markdown, markup.heading.markdown, punctuation.definition.heading.markdown</scope>
+</snippet>
