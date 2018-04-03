@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[$TM_FILENAME]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>fnext</tabTrigger>
+    <!-- Optional: Description to show in the menu -->
+    <description>The current file name with extension</description>
+</snippet>
