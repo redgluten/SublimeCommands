@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\$this->assertEquals($1, $2);
+]]></content>
+<tabTrigger>asseq</tabTrigger>
+<description>Assert Equals</description>
+<scope>source.php</scope>
+</snippet>
