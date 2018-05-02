@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\$this->assertNull($1);
+]]></content>
+<tabTrigger>assnull</tabTrigger>
+<description>Assert Null</description>
+<scope>source.php</scope>
+</snippet>
