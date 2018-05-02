@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\$this->assertContains($1, $2);
+]]></content>
+<tabTrigger>asscont</tabTrigger>
+<description>Assert Contains</description>
+<scope>source.php</scope>
+</snippet>
