@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+{% trans %}$0{% endtrans %}
+]]></content>
+<tabTrigger>trans</tabTrigger>
+<description>Twig translate</description>
+<scope>text.html.twig, meta.tag.template.block.twig, punctuation.section.tag.twig</scope>
+</snippet>
