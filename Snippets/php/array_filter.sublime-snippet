@@ -1,6 +1,6 @@
 <snippet>
 <content><![CDATA[
-\$${1:filteredArray} = array_filter(\$${3:originalArray}, function(\$${2:index}) {
+\$${1:filteredArray} = array_filter(\$${3:originalArray}, function (\$${2:index}) {
     ${4:// code…}
 });
 ]]></content>
