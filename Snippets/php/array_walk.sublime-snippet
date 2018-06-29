@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+\$${1:filteredArray} = array_walk(\$${3:originalArray}, function (\$${2:index}) {
+    ${4:// code…}
+});
+]]></content>
+<tabTrigger>awalk</tabTrigger>
+<description>Array walk</description>
+<scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function.php, meta.block.php</scope>
+</snippet>
