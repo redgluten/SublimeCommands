@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+' . ${1:\$var} . '${0}
+]]></content>
+<tabTrigger>cstring</tabTrigger>
+<description>Concatenated string with single quotes</description>
+<scope>text.blade, text.html.blade, meta.embedded.block.blade.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.group.php, meta.array.php, string.quoted.single.php, punctuation.definition.string.begin.php</scope>
+</snippet>
