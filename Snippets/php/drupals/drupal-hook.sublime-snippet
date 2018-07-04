@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Implements hook_${1}().
+ */
+function ${TM_FILENAME/([^.]*)\..*$/$1/}_${1:function_name}(${2:args}) {
+  ${3:// code}
+}
+]]></content>
+    <tabTrigger>dhook</tabTrigger>
+    <scope>embedding.php, text.html.basic, meta.embedded.block.php, source.php, meta.function.php, meta.block.php</scope>
+</snippet>
