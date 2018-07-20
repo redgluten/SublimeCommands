@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-var_dump('${1:text}'); ${2:exit};
+var_dump('${1:text}'); ${2:die};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>vdump</tabTrigger>
