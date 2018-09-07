@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+var ${1:variable_name} = settings.hasOwnProperty('${1}') ? settings.${1} : null;${0}
+]]></content>
+<tabTrigger>own</tabTrigger>
+<description>Conditional object variable assignment</description>
+<scope>source.js, meta.group.js, meta.block.js, meta.block.js, meta.conditional.js, meta.block.js, storage.type.js</scope>
+</snippet>
