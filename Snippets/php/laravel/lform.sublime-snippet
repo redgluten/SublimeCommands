@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+<form action="{{ route('${1:route}') }}" method="POST" class="$0">
+        @method('${2:POST}')
+        @csrf
+
+        <button type="submit" class="block btn btn-green">Save</button>
+</form>
+]]></content>
+<tabTrigger>lform</tabTrigger>
+<description>Laravel form</description>
+<scope>text.blade, text.html.blade, meta.tag.block.form.html, punctuation.definition.tag.begin.html</scope>
+</snippet>
