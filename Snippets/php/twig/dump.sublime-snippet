@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<pre><code>{{ dump($1) }}</code></pre>
+]]></content>
+<tabTrigger>dump</tabTrigger>
+<description>Pretty dump</description>
+<scope>text.html.twig, meta.tag.block.any.html, punctuation.definition.tag.begin.html</scope>
+</snippet>
