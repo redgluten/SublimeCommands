@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+<button type="submit" class="${1:btn btn-green}">${2:Save}</button>
+]]></content>
+<tabTrigger>submit</tabTrigger>
+<description>Submit button</description>
+<scope>text.blade, text.html.blade, meta.tag.inline.form.html, punctuation.definition.tag.begin.html</scope>
+</snippet>
