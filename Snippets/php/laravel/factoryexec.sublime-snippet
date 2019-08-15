@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-factory(${1:ClassName}::class${2:, 10})->${3:create}();${0}
+factory(${1:ClassName}::class${2:, 3})->${3:create}();${0}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>fact</tabTrigger>
