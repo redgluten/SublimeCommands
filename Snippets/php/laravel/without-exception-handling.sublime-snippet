@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+\$this->withoutExceptionHandling();
+]]></content>
+<tabTrigger>weh</tabTrigger>
+<description>Without exception handling</description>
+<scope>source.php</scope>
+</snippet>
