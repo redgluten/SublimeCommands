@@ -1,0 +1,17 @@
+<snippet>
+<content><![CDATA[
+local Class = require 'hump.class'
+local Entity = require 'entities.Entity'
+
+local ${TM_FILENAME/([^.]*)\..*$/$1/} = Class {
+  __includes = Entity
+}
+
+$0
+
+return ${TM_FILENAME/([^.]*)\..*$/$1/}
+]]></content>
+<tabTrigger>hclass</tabTrigger>
+<description>Hump class</description>
+<scope>source.lua, storage.modifier.lua</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+<content><![CDATA[
+local inspect = require 'inspect'
+
+function table.print(table)
+  print(inspect(table))
+end
+
+]]></content>
+<tabTrigger>inspect</tabTrigger>
+<description>Table inspect function</description>
+<scope>source.lua, storage.modifier.lua</scope>
+</snippet>
