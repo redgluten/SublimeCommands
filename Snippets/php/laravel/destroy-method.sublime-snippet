@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 \$${1:name} = \$${2:model}->${1:name};
-\$${2:Model}->destroy();
+\$${2:Model}->delete();
 
 flash('The ${2:model} ' . \$${1:name} . ' was deleted.');
 
