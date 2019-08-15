@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+\$response = \$this${1:->actingAs($2)}->get('$3');
+
+${4:\$response->assertStatus(${5:201});}
+]]></content>
+<tabTrigger>tget</tabTrigger>
+<description>Test Get Response</description>
+<scope>source.php</scope>
+</snippet>
