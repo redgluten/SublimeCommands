@@ -1,6 +1,8 @@
 <snippet>
 <content><![CDATA[
+// ==== Remember to delete me ====
 \$this->withoutExceptionHandling();
+// ================================
 ]]></content>
 <tabTrigger>weh</tabTrigger>
 <description>Without exception handling</description>
