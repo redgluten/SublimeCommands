@@ -1,0 +1,14 @@
+<snippet>
+<content><![CDATA[
+@font-face {
+  font-family: '$1';
+  src: url('../fonts/$1.woff2') format('woff2');
+  font-weight: ${2:normal};
+  font-style: ${3:normal};
+  font-display: ${4:fallback};
+}
+]]></content>
+<tabTrigger>fontface</tabTrigger>
+<description>Font-face</description>
+<scope>source.scss, meta.at-rule.css, keyword.control.at-rule.css, punctuation.definition.keyword.css</scope>
+</snippet>

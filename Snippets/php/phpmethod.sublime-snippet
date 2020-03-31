@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:public} function ${2:methodName}(${3:$param})${4: : ${5:Return}}
+${1:public} function ${2:methodName}(${3:$param})${4:: ${5:Return}}
 {
     ${0:// code}
 }

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-\$table->integer('${1:model}_id')
+\$table->bigInteger('${1:model}_id')
     ->unsigned();
 \$table->foreign('${1:model}_id')
     ->references('id')->on('${1:model}s')
