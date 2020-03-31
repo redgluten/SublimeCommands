@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+IO.inspect(${1:value})
+]]></content>
+<tabTrigger>insp</tabTrigger>
+<description>IO inspect</description>
+<scope>source.elixir, entity.name.class.elixir</scope>
+</snippet>

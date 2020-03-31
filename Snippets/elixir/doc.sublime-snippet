@@ -1,0 +1,10 @@
+<snippet>
+<content><![CDATA[
+@doc """
+${1:Some doc.}
+"""$0
+]]></content>
+<tabTrigger>doc</tabTrigger>
+<description>Docbloc</description>
+<scope>source.elixir, comment.documentation.heredoc</scope>
+</snippet>
