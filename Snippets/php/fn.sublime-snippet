@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+fn ($1) => $1$0
+]]></content>
+<tabTrigger>fn</tabTrigger>
+<description>Short anonymous function</description>
+<scope>text.blade, text.html.blade, meta.embedded.block.blade.php, source.php, meta.class.php, meta.block.php, meta.function.php, meta.block.php, meta.group.php, meta.array.php, string.quoted.single.php, punctuation.definition.string.begin.php</scope>
+</snippet>
